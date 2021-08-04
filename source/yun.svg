@@ -1,21 +1,24 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="yun-logo" width="400" height="400" viewBox="40 40 320 320" stroke-width="16">
-    <style>
-        #yun-logo {
-            stroke: black;
-        }
-
-        @media (prefers-color-scheme: dark) {
-            #yun-logo {
-                stroke: white;
-            }
-        }
-    </style>
-    <defs>
-        <line id="eye" x1="0" y1="-35" x2="0" y2="35" stroke-linecap="round">
-            <animateTransform attributeName="transform" additive="sum" attributeType="XML" type="scale" from="1 1" to="1 0" dur="0.15s" repeatCount="2"/>
-        </line>
-    </defs>
-    <polygon stroke-linejoin="round" fill="none" points="50,250 50,150 100,150 100,100 300,100 300,150 350,150 350,250 300,250 300,300 100,300 100,250 50,250"/>
-    <use xlink:href="#eye" transform="translate(150,200)"/>
-    <use xlink:href="#eye" transform="translate(250,200)"/>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="300.000000pt" height="300.000000pt" viewBox="0 0 300.000000 300.000000"
+ preserveAspectRatio="xMidYMid meet">
+<metadata>
+Created by potrace 1.10, written by Peter Selinger 2001-2011
+</metadata>
+<g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M1380 2715 c-8 -2 -49 -9 -90 -15 -94 -15 -234 -62 -325 -108 -234
+-117 -441 -327 -549 -557 -241 -509 -89 -1115 364 -1454 410 -307 989 -307
+1400 0 304 227 482 577 484 954 1 146 -13 239 -55 370 -153 483 -621 820
+-1129 814 -47 -1 -92 -3 -100 -4z m608 -147 c700 -345 869 -1255 341 -1832
+-136 -148 -357 -281 -554 -332 -121 -32 -320 -43 -417 -25 -211 41 -404 230
+-447 439 -76 367 200 701 579 702 313 1 580 273 580 590 0 165 -65 314 -184
+427 -39 37 -97 81 -129 97 -31 15 -57 30 -57 31 0 14 205 -55 288 -97z m-420
+-289 c139 -68 132 -275 -13 -340 -80 -37 -155 -20 -217 49 -139 154 41 382
+230 291z"/>
+<path d="M1414 1112 c-51 -24 -81 -55 -105 -107 -26 -55 -24 -102 7 -164 94
+-188 373 -121 374 90 0 138 -153 238 -276 181z"/>
+</g>
 </svg>
